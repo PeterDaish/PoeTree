@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PoeTree
 {
-    public partial class Form1 : Form
+    public partial class PoeTreeMain : Form
     {
-        public Form1()
+        public PoeTreeMain()
         {
             InitializeComponent();
         }
