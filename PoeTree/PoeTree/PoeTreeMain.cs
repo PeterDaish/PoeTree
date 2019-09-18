@@ -22,7 +22,7 @@ namespace PoeTree
         */
 
         //########### UI Attributes ############
-        private const String PROG_TITLE = "PoeTree"; //Title of the program PoeTree - a Poetry app.
+        private const String FORM_TITLE = "Login"; //Title of the program PoeTree - a Poetry app.
         private const String BTN_CONFIRM_MESSAGE = "Confirm";
         private const String LBL_WELCOME_MESSAGE = ", hello and welcome to PoeTree!";
 
@@ -41,7 +41,7 @@ namespace PoeTree
          */
         private void InitialiseUI()
         {
-            titleLbl.Text = PROG_TITLE;
+            titleLbl.Text = FORM_TITLE;
             usernameConfirmButton.Text = BTN_CONFIRM_MESSAGE;
             welcomeUserLbl.Text = "";
         }
