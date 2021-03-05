@@ -16,5 +16,11 @@ namespace PoeTree
         {
             InitializeComponent();
         }
+
+        private void btnHaiku_Click(object sender, EventArgs e)
+        {
+            Form haikuForm = new HaikuForm();
+            haikuForm.Show();
+        }
     }
 }

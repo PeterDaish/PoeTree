@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="HaikuForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HaikuForm.Designer.cs">
+      <DependentUpon>HaikuForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="PoeTreeMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +60,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="HaikuForm.resx">
+      <DependentUpon>HaikuForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PoeTreeMain.resx">
       <DependentUpon>PoeTreeMain.cs</DependentUpon>
     </EmbeddedResource>
