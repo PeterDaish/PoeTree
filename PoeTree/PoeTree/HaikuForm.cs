@@ -30,7 +30,7 @@ namespace PoeTree
 
         private void btnPrint_Click(object sender, EventArgs e)
         {
-            //Format the data entered by the user to make it look pretty.
+            //Format th e data entered by the user to make it look pretty.
         }
     }
 }
